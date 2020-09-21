@@ -19,6 +19,7 @@ Vous devez compléter les fonctions suivantes du fichier [exercice.py](exercice.
 
 ```python
 def convert_to_absolute() -> float:
+    
     return 0.0
 
 def use_prefixes() -> List[str]:
