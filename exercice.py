@@ -6,7 +6,7 @@ from typing import List
 
 
 def convert_to_absolute() -> float:
-    userInput = float(input("Entrez n'importe quel nombre"))
+    userInput = float(input("Entrez n'importe quel nombre: "))
     userInput = abs(userInput)
     return userInput
 
