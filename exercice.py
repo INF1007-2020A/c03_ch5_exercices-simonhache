@@ -26,7 +26,7 @@ def prime_integer_summation() -> int:
             if i%n != 0:
                 isprime = True
                 break
-        if is                    
+        if isprime                    
     
 
     return value
