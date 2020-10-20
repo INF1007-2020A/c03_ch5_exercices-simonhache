@@ -20,18 +20,8 @@ def use_prefixes() -> List[str]:
 
 
 def prime_integer_summation() -> int:
-    for i in range(1,100):
-        number = 1
-        value = 0
-        while number <10:
-            number+=1
-            if i%number != 0:
-                number += 1
-            elif i%number:
-                break
-        if number ==10:
-            value = value + i
-    return value
+    
+  return 
 
 
 def factorial(number: int) -> int:
