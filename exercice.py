@@ -22,8 +22,8 @@ def use_prefixes() -> List[str]:
 def prime_integer_summation() -> int:
     prime_number_list = [1]
     for i in range(100):
-        for i in range(len(prime_number_list)):
-            if i%
+        for n in range(len(prime_number_list)):
+            if i%n
     return value
 
 
