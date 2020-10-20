@@ -21,7 +21,7 @@ def use_prefixes() -> List[str]:
 
 def prime_integer_summation() -> int:
     for i in range(100):
-        if 
+        if i%%2
     return value
 
 
