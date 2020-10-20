@@ -27,8 +27,8 @@ def prime_integer_summation() -> int:
             if i%n != 0:
                 isprime = False
                 break
-        if isprime                    
-    
+        if isprime:                    
+            prime_number_list.append(n)
 
     return value
 
