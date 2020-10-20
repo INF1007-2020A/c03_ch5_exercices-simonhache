@@ -29,8 +29,7 @@ def prime_integer_summation() -> int:
                 break
         if isprime:                    
             prime_number_list.append(i)
-
-    return value
+    return sum(prime_number_list)
 
 
 def factorial(number: int) -> int:
