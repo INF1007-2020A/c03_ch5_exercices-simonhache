@@ -25,8 +25,7 @@ def prime_integer_summation() -> int:
         for n in range(len(prime_number_list)):
             if i%n != 0:
                 break
-            else:
-                
+                            
     
 
     return value
