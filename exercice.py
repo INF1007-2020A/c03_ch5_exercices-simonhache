@@ -22,6 +22,7 @@ def use_prefixes() -> List[str]:
 def prime_integer_summation() -> int:
     prime_number_list = [1]
     for i in range(100):
+        isprime = True
         for n in range(len(prime_number_list)):
             if i%n != 0:
                 isprime = False
