@@ -1,16 +1,18 @@
 test_factorial (__main__.TestExercice) ... ok
 test_prefixes (__main__.TestExercice) ... ok
-test_summation (__main__.TestExercice) ... FAIL
+test_summation (__main__.TestExercice) ... ERROR
 
 ======================================================================
-FAIL: test_summation (__main__.TestExercice)
+ERROR: test_summation (__main__.TestExercice)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_exercice.py", line 38, in test_summation
-    'Retrait du mauvais caractère'
-AssertionError: None != 24133 : Retrait du mauvais caractère
+  File "test_exercice.py", line 33, in test_summation
+    output = exercice.prime_integer_summation()
+  File "/home/runner/work/c03_ch5_exercices-simonhache/c03_ch5_exercices-simonhache/exercice.py", line 26, in prime_integer_summation
+    return value
+NameError: name 'value' is not defined
 
 ----------------------------------------------------------------------
 Ran 3 tests in 0.001s
 
-FAILED (failures=1)
+FAILED (errors=1)
