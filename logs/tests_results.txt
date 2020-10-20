@@ -8,9 +8,9 @@ FAIL: test_summation (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 38, in test_summation
     'Retrait du mauvais caractère'
-AssertionError: 1061 != 24133 : Retrait du mauvais caractère
+AssertionError: 76128 != 24133 : Retrait du mauvais caractère
 
 ----------------------------------------------------------------------
-Ran 3 tests in 0.001s
+Ran 3 tests in 0.006s
 
 FAILED (failures=1)
