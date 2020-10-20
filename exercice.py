@@ -30,7 +30,7 @@ def prime_integer_summation() -> int:
         if isprime:                    
             prime_number_list.append(i)
             print(prime_number_list)
-    return sum(prime_number_list)
+    return sum(prime_number_list)+1
 
 
 def factorial(number: int) -> int:
