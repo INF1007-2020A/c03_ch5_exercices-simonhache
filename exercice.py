@@ -22,7 +22,7 @@ def use_prefixes() -> List[str]:
 def prime_integer_summation() -> int:
     prime_number_list = []
     for i in range(100):
-        for i in len()
+        for i in rangelen()
     return value
 
 
