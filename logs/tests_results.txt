@@ -9,8 +9,8 @@ Traceback (most recent call last):
   File "test_exercice.py", line 33, in test_summation
     output = exercice.prime_integer_summation()
   File "/home/runner/work/c03_ch5_exercices-simonhache/c03_ch5_exercices-simonhache/exercice.py", line 26, in prime_integer_summation
-    return value
-NameError: name 'value' is not defined
+    if i%n != 0:
+ZeroDivisionError: integer division or modulo by zero
 
 ----------------------------------------------------------------------
 Ran 3 tests in 0.001s
