@@ -23,7 +23,7 @@ def prime_integer_summation() -> int:
     prime_number_list = [2]
     for i in range(100):
         isprime = True
-        for n in prime_number_list)):
+        for n in prime_number_list:
             if i % n != 0:
                 isprime = False
                 break
