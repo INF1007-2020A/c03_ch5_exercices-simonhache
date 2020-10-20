@@ -24,7 +24,6 @@ def prime_integer_summation() -> int:
     for i in range(100):
         isprime = True
         for n in prime_number_list:
-            print(n)
             if i % n == 0:
                 isprime = False
                 break
